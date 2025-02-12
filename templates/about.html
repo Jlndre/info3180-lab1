@@ -2,10 +2,12 @@
 <html lanf="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <title>My Website - About</title>
 </head>
 <body>
     <h1> Joel Dixon</h1>
+    <img src="{{ url_for('static', filename='images/test.jpg') }}" alt="Joel Dixon Profile Picture" class="profile-img">
     <p> Highly motivated student with strong work 
         ethic and ability to work independently. Exemplary 
         organizational and team collaboration skills with 
